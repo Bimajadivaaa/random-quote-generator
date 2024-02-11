@@ -18,7 +18,10 @@
 }
 h1 {
   color: aliceblue;
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
+  h1 {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
@@ -30,8 +33,10 @@ h1 {
   color: white;
   font-size: 32px;
   text-align: center;
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  .quote {
     font-size: 28px;
   }
 }
@@ -40,8 +45,10 @@ h1 {
   width: 680px;
   background: white;
   height: 1.5px;
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  .line {
     width: 289px;
     display: flex;
   }
@@ -59,7 +66,10 @@ h1 {
   color: white;
   font-size: 20px;
   font-weight: 500;
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
+  .author {
     margin-left: 10px;
   }
 }
@@ -67,14 +77,20 @@ h1 {
 .icons {
   display: flex;
   gap: 20px;
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
+  .icons {
     gap: 10px;
   }
 }
 
 .icons img {
   cursor: pointer;
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
+  .icons img {
     margin-right: 12px;
   }
 }
