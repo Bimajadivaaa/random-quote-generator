@@ -5,8 +5,8 @@ import reload from "../Assets/reload.png";
 
 const RandomQuote = () => {
   const [quotes, setQuotes] = useState({
-    text: "",
-    author: "",
+    text: "Belajar itu harus, pintar itu bonus.",
+    author: "Unknown",
   });
 
   async function loadQuotes() {
